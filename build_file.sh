@@ -1,6 +1,7 @@
 pip install -r requirements.txt
 
 
+pip install psycopg2
 
 echo "make migration...."
 python3 manage.py makemigrations --noinput
